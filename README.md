@@ -1,9 +1,26 @@
+# 🎯 Prueba Técnica – Desarrollador Frontend
 
-# 🎯 Prueba Técnica – Desarrollador Frontend Junior
+## 🎮 Introducción al Juego del Ahorcado
 
-## 🧩 Objetivo
+El **ahorcado** es un juego clásico de adivinanza de palabras en el que un jugador debe descubrir una palabra secreta, letra por letra, antes de cometer un número máximo de errores.
 
-Crear un juego interactivo del **ahorcado** utilizando un framework de frontend moderno.
+### 🧠 ¿Cómo funciona?
+
+- Se escoge una **palabra secreta** y se muestra como una serie de guiones (`_`), representando cada letra.
+- El jugador debe ingresar una letra en cada intento.
+- Si la letra está en la palabra, se revela en su(s) posición(es) correcta(s).
+- Si la letra no está, se **suma un fallo** y se dibuja una parte del "muñeco ahorcado".
+- El jugador **gana** si adivina toda la palabra antes de completar los 6 fallos.
+- El jugador **pierde** si comete 6 errores antes de completar la palabra.
+
+### 🧩 Reglas clave del juego
+
+- Solo se permiten letras del alfabeto.
+- No se distingue entre mayúsculas y minúsculas.
+- Letras repetidas no deben penalizarse si ya fueron intentadas.
+- El juego debe permitir reiniciar la partida en cualquier momento.
+
+Este reto busca implementar esa lógica usando un framework moderno, aprovechando el manejo de estado, componentes y estilos personalizados.
 
 ---
 
@@ -11,7 +28,7 @@ Crear un juego interactivo del **ahorcado** utilizando un framework de frontend 
 
 ### 1. Framework Frontend
 
-- Puede usarse **Vue.js 3**, **React**, **Angular**, u otro framework moderno basado en JavaScript.
+- Puede usarse ***Vanilla Javascript**,**Vue.js 3**, **React**, **Angular**, u otro framework moderno basado en JavaScript.
 
 ### 2. Diseño
 
