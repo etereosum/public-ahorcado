@@ -28,7 +28,7 @@ Este reto busca implementar esa lógica usando un framework moderno, aprovechand
 
 ### 1. Framework Frontend
 
-- Puede usarse ***Vanilla Javascript**,**Vue.js 3**, **React**, **Angular**, u otro framework moderno basado en JavaScript.
+- Puede usarse **Vanilla Javascript**,**Vue.js 3**, **React**, **Angular**, u otro framework moderno basado en JavaScript.
 
 ### 2. Diseño
 
